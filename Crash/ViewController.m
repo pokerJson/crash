@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "Crash.h"
+#import "NSArray+Swizzling.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,9 @@
     
     Crash *cc = [Crash new];
     [cc xxxxxxx];
+    
+    NSArray *arr = @[@"1",@"2"];
+    NSLog(@"%@",[arr objectAtIndex:3]);
     
     
 }
