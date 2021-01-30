@@ -25,6 +25,7 @@
     [bbb addTarget:self action:@selector(xxxx) forControlEvents:UIControlEventTouchUpInside];
     
     [[NSObject new] performSelector:@selector(ffff)];
+    
     Crash *cc = [Crash new];
     [cc xxxxxxx];
     
